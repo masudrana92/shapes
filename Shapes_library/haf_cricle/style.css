@@ -1,0 +1,93 @@
+.wrappar{
+	width:80%;
+	margin:0px auto;
+	
+}
+.wrappar p{
+	text-align:justify;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+.cricle{
+	height:200px;
+	width:200px;
+	background:#5B9BD5;
+	border-radius:50%;
+	margin:0px auto;
+}
+.box-shapes{
+	width:25%;
+	margin:0px auto;
+	height:300px;
+}
+.box{
+	width:0;
+	height:0;
+	border-right:150px solid white;
+	border-bottom:140px solid transparent;
+	transform:rotate(180deg);
+}
+
+/*color with lot of color..*/
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+ .haf-drown{ 
+	margin-left:143px;
+	margin-top:-230px;
+	transform:rotate(180deg);
+}
+.haf-drown-left{ 
+	transform:rotate(90deg);
+	margin-left:143px;
+	margin-top:-230px;
+}
+.haf-drown-left2{ 
+	transform:rotate(-90deg);
+	margin-left:143px;
+	margin-top:-230px;
+}
+.haf-drown-left-top{ 
+	transform:rotate(-108deg);
+	margin-left:103px;
+	margin-top:-230px;
+}
+.haf-drown-right{ 
+	transform:rotate(70deg);
+	margin-left:-40px;
+	margin-top:-300px;
+}
+.haf-drown-right-1{ 
+	transform:rotate(115deg);
+	margin-left:-40px;
+	margin-top:-200px;
+}
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+
+  .haf-drown{ 
+	margin-left:50px;
+	margin-top:-230px;
+	transform:rotate(180deg);
+}
+
+.haf-drown-left{ 
+	transform:rotate(90deg);
+	margin-left:53px;
+	margin-top:-230px;
+}
+
+.haf-drown-left-top{ 
+	transform:rotate(-108deg);
+	margin-left:10px;
+	margin-top:-230px;
+}
+.haf-drown-left2{ 
+	transform:rotate(-90deg);
+	margin-left:53px;
+	margin-top:-220px;
+}
+}
+/*color with lot of color..*/
